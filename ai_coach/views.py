@@ -94,4 +94,5 @@ Question: {prompt}
                 "response": "⚠️ AI service error. Please try again later."
             })
 
+
     return JsonResponse({"response": "Invalid request method."})
